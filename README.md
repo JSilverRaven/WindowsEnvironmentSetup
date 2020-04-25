@@ -37,4 +37,11 @@ Environment setup guide for my windows machine
 ### Python
 - Install using choco: `choco install python`
 
+### Git ByPassing username/password
+- While using cmder bash shell, run `ssh-keygen -t rsa    #Press enter for all values`
+- A file named `id_rsa.pub` and a cert `id_rsa` should be created under the default location. e.g. `C:\Users\[UserName]\.ssh`
+- Go to Github, click on your account icon, select `Settings` from dropdown 
+- Select `SSH and GPG keys`, add new SSH key with content of `id_rsa.pub`
+- Update your local git repo remote to use the ssh url provided from github clone option, update your remote by running: `git remote set-url [remote name] [git+ssh://git@github.com/username/reponame.git]`
+
 
