@@ -8,6 +8,12 @@ Environment setup guide for my windows machine
 - Edit windows environment variable, add /path/to/cmder and /path/to/cmder/bin to PATH
 - Edit settings of cmder after starting one, change default startup task to `{bash::bash}`
 
+
+
+### Command line Tools for cmder
+1. zip
+- https://ranxing.wordpress.com/2016/12/13/add-zip-into-git-bash-on-windows/
+
 ### Package Manager - chocolatey
 - Go to https://chocolatey.org/install
 - Install choco through windows poershell as admin according to the instruction included above
